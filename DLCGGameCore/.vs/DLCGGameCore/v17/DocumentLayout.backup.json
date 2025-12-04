@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\NewtonAssignment\\DLCGGameCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A475994-00E6-4F0A-A43F-AA850D31A7B1}|DLCGGameCore.Tests\\DLCGGameCore.Tests.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.tests\\dlcggamecore.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A475994-00E6-4F0A-A43F-AA850D31A7B1}|DLCGGameCore.Tests\\DLCGGameCore.Tests.csproj|solutionrelative:dlcggamecore.tests\\dlcggamecore.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A475994-00E6-4F0A-A43F-AA850D31A7B1}|DLCGGameCore.Tests\\DLCGGameCore.Tests.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.tests\\controllers\\videogamescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A475994-00E6-4F0A-A43F-AA850D31A7B1}|DLCGGameCore.Tests\\DLCGGameCore.Tests.csproj|solutionrelative:dlcggamecore.tests\\controllers\\videogamescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4808B1AF-8980-47B9-8555-86F0401BEF64}|DLCGGameCore.Service\\DLCGGameCore.Service.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4808B1AF-8980-47B9-8555-86F0401BEF64}|DLCGGameCore.Service\\DLCGGameCore.Service.csproj|solutionrelative:dlcggamecore.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4808B1AF-8980-47B9-8555-86F0401BEF64}|DLCGGameCore.Service\\DLCGGameCore.Service.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.service\\dlcggamecore.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4808B1AF-8980-47B9-8555-86F0401BEF64}|DLCGGameCore.Service\\DLCGGameCore.Service.csproj|solutionrelative:dlcggamecore.service\\dlcggamecore.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A475994-00E6-4F0A-A43F-AA850D31A7B1}|DLCGGameCore.Tests\\DLCGGameCore.Tests.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.tests\\repository\\gamerepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A475994-00E6-4F0A-A43F-AA850D31A7B1}|DLCGGameCore.Tests\\DLCGGameCore.Tests.csproj|solutionrelative:dlcggamecore.tests\\repository\\gamerepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.application\\dtos\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|solutionrelative:dlcggamecore.application\\dtos\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4808B1AF-8980-47B9-8555-86F0401BEF64}|DLCGGameCore.Service\\DLCGGameCore.Service.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.service\\controllers\\videogamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4808B1AF-8980-47B9-8555-86F0401BEF64}|DLCGGameCore.Service\\DLCGGameCore.Service.csproj|solutionrelative:dlcggamecore.service\\controllers\\videogamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4808B1AF-8980-47B9-8555-86F0401BEF64}|DLCGGameCore.Service\\DLCGGameCore.Service.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4808B1AF-8980-47B9-8555-86F0401BEF64}|DLCGGameCore.Service\\DLCGGameCore.Service.csproj|solutionrelative:dlcggamecore.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.application\\services\\videogameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|solutionrelative:dlcggamecore.application\\services\\videogameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.application\\interfaces\\ivideogameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|solutionrelative:dlcggamecore.application\\interfaces\\ivideogameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC2C138-8854-44D3-8CF0-98EDF08B1018}|DLCGGameCore.Infrastructure\\DLCGGameCore.Infrastructure.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC2C138-8854-44D3-8CF0-98EDF08B1018}|DLCGGameCore.Infrastructure\\DLCGGameCore.Infrastructure.csproj|solutionrelative:dlcggamecore.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A15AB9-64F2-4E86-B40F-E9CE5DDD6075}|DLCGGameCore.Domain\\DLCGGameCore.Domain.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.domain\\entities\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A15AB9-64F2-4E86-B40F-E9CE5DDD6075}|DLCGGameCore.Domain\\DLCGGameCore.Domain.csproj|solutionrelative:dlcggamecore.domain\\entities\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.application\\mappings\\videogameprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|solutionrelative:dlcggamecore.application\\mappings\\videogameprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.application\\interfaces\\ivideogamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|solutionrelative:dlcggamecore.application\\interfaces\\ivideogamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.application\\extensions\\pagedresultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|solutionrelative:dlcggamecore.application\\extensions\\pagedresultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.application\\dtos\\videogamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|solutionrelative:dlcggamecore.application\\dtos\\videogamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.application\\dlcggamecore.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FF0B9C52-EAD0-4789-B1A6-99074FF715D1}|DLCGGameCore.Application\\DLCGGameCore.Application.csproj|solutionrelative:dlcggamecore.application\\dlcggamecore.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC2C138-8854-44D3-8CF0-98EDF08B1018}|DLCGGameCore.Infrastructure\\DLCGGameCore.Infrastructure.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.infrastructure\\dlcggamecore.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFC2C138-8854-44D3-8CF0-98EDF08B1018}|DLCGGameCore.Infrastructure\\DLCGGameCore.Infrastructure.csproj|solutionrelative:dlcggamecore.infrastructure\\dlcggamecore.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4808B1AF-8980-47B9-8555-86F0401BEF64}|DLCGGameCore.Service\\DLCGGameCore.Service.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4808B1AF-8980-47B9-8555-86F0401BEF64}|DLCGGameCore.Service\\DLCGGameCore.Service.csproj|solutionrelative:dlcggamecore.service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A15AB9-64F2-4E86-B40F-E9CE5DDD6075}|DLCGGameCore.Domain\\DLCGGameCore.Domain.csproj|c:\\newtonassignment\\dlcggamecore\\dlcggamecore.domain\\dlcggamecore.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{63A15AB9-64F2-4E86-B40F-E9CE5DDD6075}|DLCGGameCore.Domain\\DLCGGameCore.Domain.csproj|solutionrelative:dlcggamecore.domain\\dlcggamecore.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameRepositoryTests.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Tests\\Repository\\GameRepositoryTests.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Tests\\Repository\\GameRepositoryTests.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Tests\\Repository\\GameRepositoryTests.cs",
+              "RelativeToolTip": "DLCGGameCore.Tests\\Repository\\GameRepositoryTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T18:07:45.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IVideoGameService.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\Interfaces\\IVideoGameService.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Application\\Interfaces\\IVideoGameService.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\Interfaces\\IVideoGameService.cs",
+              "RelativeToolTip": "DLCGGameCore.Application\\Interfaces\\IVideoGameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T14:19:40.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideoGamesControllerTests.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Tests\\Controllers\\VideoGamesControllerTests.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Tests\\Controllers\\VideoGamesControllerTests.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Tests\\Controllers\\VideoGamesControllerTests.cs",
+              "RelativeToolTip": "DLCGGameCore.Tests\\Controllers\\VideoGamesControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T22:28:32.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DLCGGameCore.Service.csproj",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Service\\DLCGGameCore.Service.csproj",
+              "RelativeDocumentMoniker": "DLCGGameCore.Service\\DLCGGameCore.Service.csproj",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Service\\DLCGGameCore.Service.csproj",
+              "RelativeToolTip": "DLCGGameCore.Service\\DLCGGameCore.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-30T06:38:02.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DLCGGameCore.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T05:46:07.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VideoGame.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Domain\\Entities\\VideoGame.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Domain\\Entities\\VideoGame.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Domain\\Entities\\VideoGame.cs",
+              "RelativeToolTip": "DLCGGameCore.Domain\\Entities\\VideoGame.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T05:35:20.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DLCGGameCore.Tests",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Tests\\DLCGGameCore.Tests.csproj",
+              "RelativeDocumentMoniker": "DLCGGameCore.Tests\\DLCGGameCore.Tests.csproj",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Tests\\DLCGGameCore.Tests.csproj",
+              "RelativeToolTip": "DLCGGameCore.Tests\\DLCGGameCore.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-03T18:09:10.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\DTOs\\PagedResult.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Application\\DTOs\\PagedResult.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\DTOs\\PagedResult.cs",
+              "RelativeToolTip": "DLCGGameCore.Application\\DTOs\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T19:28:57.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Service\\Program.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Service\\Program.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Service\\Program.cs",
+              "RelativeToolTip": "DLCGGameCore.Service\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAD4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T05:08:45.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VideoGameController.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Service\\Controllers\\VideoGameController.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Service\\Controllers\\VideoGameController.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Service\\Controllers\\VideoGameController.cs",
+              "RelativeToolTip": "DLCGGameCore.Service\\Controllers\\VideoGameController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwCIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T05:24:07.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VideoGameService.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\Services\\VideoGameService.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Application\\Services\\VideoGameService.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\Services\\VideoGameService.cs",
+              "RelativeToolTip": "DLCGGameCore.Application\\Services\\VideoGameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAASwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T06:07:48.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VideoGameProfile.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\Mappings\\VideoGameProfile.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Application\\Mappings\\VideoGameProfile.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\Mappings\\VideoGameProfile.cs",
+              "RelativeToolTip": "DLCGGameCore.Application\\Mappings\\VideoGameProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:38:41.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IVideoGameRepository.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\Interfaces\\IVideoGameRepository.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Application\\Interfaces\\IVideoGameRepository.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\Interfaces\\IVideoGameRepository.cs",
+              "RelativeToolTip": "DLCGGameCore.Application\\Interfaces\\IVideoGameRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAEwAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T05:52:28.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Service\\appsettings.json",
+              "RelativeDocumentMoniker": "DLCGGameCore.Service\\appsettings.json",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Service\\appsettings.json",
+              "RelativeToolTip": "DLCGGameCore.Service\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-03T23:08:03.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PagedResultExtensions.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\Extensions\\PagedResultExtensions.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Application\\Extensions\\PagedResultExtensions.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\Extensions\\PagedResultExtensions.cs",
+              "RelativeToolTip": "DLCGGameCore.Application\\Extensions\\PagedResultExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T16:37:36.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VideoGameDto.cs",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\DTOs\\VideoGameDto.cs",
+              "RelativeDocumentMoniker": "DLCGGameCore.Application\\DTOs\\VideoGameDto.cs",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\DTOs\\VideoGameDto.cs",
+              "RelativeToolTip": "DLCGGameCore.Application\\DTOs\\VideoGameDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T01:56:11.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DLCGGameCore.Application.csproj",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\DLCGGameCore.Application.csproj",
+              "RelativeDocumentMoniker": "DLCGGameCore.Application\\DLCGGameCore.Application.csproj",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application\\DLCGGameCore.Application.csproj",
+              "RelativeToolTip": "DLCGGameCore.Application\\DLCGGameCore.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-30T05:40:33.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DLCGGameCore.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Infrastructure\\DLCGGameCore.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "DLCGGameCore.Infrastructure\\DLCGGameCore.Infrastructure.csproj",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Infrastructure\\DLCGGameCore.Infrastructure.csproj",
+              "RelativeToolTip": "DLCGGameCore.Infrastructure\\DLCGGameCore.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-30T06:19:08.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DLCGGameCore.Domain.csproj",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Domain\\DLCGGameCore.Domain.csproj",
+              "RelativeDocumentMoniker": "DLCGGameCore.Domain\\DLCGGameCore.Domain.csproj",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Domain\\DLCGGameCore.Domain.csproj",
+              "RelativeToolTip": "DLCGGameCore.Domain\\DLCGGameCore.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-30T05:25:41.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Service\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DLCGGameCore.Service\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Service\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DLCGGameCore.Service\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-30T05:07:58.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

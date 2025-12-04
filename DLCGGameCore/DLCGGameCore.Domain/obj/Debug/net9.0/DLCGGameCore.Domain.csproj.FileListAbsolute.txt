@@ -1,0 +1,23 @@
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\bin\Debug\net9.0\DLCGGameCore.Domain.deps.json
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\bin\Debug\net9.0\DLCGGameCore.Domain.dll
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\bin\Debug\net9.0\DLCGGameCore.Domain.pdb
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.AssemblyInfoInputs.cache
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.AssemblyInfo.cs
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.csproj.CoreCompileInputs.cache
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.dll
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\refint\DLCGGameCore.Domain.dll
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.pdb
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\ref\DLCGGameCore.Domain.dll
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\bin\Debug\net9.0\DLCGGameCore.Domain.deps.json
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\bin\Debug\net9.0\DLCGGameCore.Domain.dll
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\bin\Debug\net9.0\DLCGGameCore.Domain.pdb
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.AssemblyInfoInputs.cache
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.AssemblyInfo.cs
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.csproj.CoreCompileInputs.cache
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.sourcelink.json
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.dll
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\refint\DLCGGameCore.Domain.dll
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\DLCGGameCore.Domain.pdb
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Domain\obj\Debug\net9.0\ref\DLCGGameCore.Domain.dll

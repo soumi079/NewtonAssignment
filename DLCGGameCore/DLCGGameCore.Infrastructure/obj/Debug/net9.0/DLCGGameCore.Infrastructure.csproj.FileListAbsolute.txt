@@ -1,0 +1,37 @@
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Infrastructure.deps.json
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Infrastructure.runtimeconfig.json
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Infrastructure.dll
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Infrastructure.pdb
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Domain.dll
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Domain.pdb
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.csproj.AssemblyReference.cache
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.AssemblyInfoInputs.cache
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.AssemblyInfo.cs
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGame.77212FF4.Up2Date
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.dll
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\refint\DLCGGameCore.Infrastructure.dll
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.pdb
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.genruntimeconfig.cache
+C:\Newton Assignment\DLCGGameCore\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\ref\DLCGGameCore.Infrastructure.dll
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Infrastructure.deps.json
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Infrastructure.runtimeconfig.json
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Infrastructure.dll
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Infrastructure.pdb
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Application.dll
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Domain.dll
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Application.pdb
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\bin\Debug\net9.0\DLCGGameCore.Domain.pdb
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.csproj.AssemblyReference.cache
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.AssemblyInfoInputs.cache
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.AssemblyInfo.cs
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.sourcelink.json
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGame.77212FF4.Up2Date
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.dll
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\refint\DLCGGameCore.Infrastructure.dll
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.pdb
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\DLCGGameCore.Infrastructure.genruntimeconfig.cache
+C:\NewtonAssignment\DLCGGameCore\DLCGGameCore.Infrastructure\obj\Debug\net9.0\ref\DLCGGameCore.Infrastructure.dll

@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "DLCGGameCore.Service.Controllers.VideoGameController",
+    "Method": "GetPaged",
+    "RelativePath": "api/VideoGame",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "genre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortDesc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DLCGGameCore.Service.Controllers.VideoGameController",
+    "Method": "Post",
+    "RelativePath": "api/VideoGame",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DLCGGameCore.Application.DTOs.VideoGameDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DLCGGameCore.Service.Controllers.VideoGameController",
+    "Method": "Get",
+    "RelativePath": "api/VideoGame/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DLCGGameCore.Service.Controllers.VideoGameController",
+    "Method": "Put",
+    "RelativePath": "api/VideoGame/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "game",
+        "Type": "DLCGGameCore.Application.DTOs.VideoGameDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "DLCGGameCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Application",
+  "DLCGGameCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Domain",
+  "DLCGGameCore.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\NewtonAssignment\\DLCGGameCore\\DLCGGameCore.Infrastructure"
+}

@@ -1,0 +1,81 @@
+<div class="container mt-4">
+    <button class="btn btn-primary mb-3" (click)="add()">Add New Game</button>
+
+    <!-- Loading Indicator -->
+    @if (isLoading()) {
+        <div class="alert alert-info">Loading games...</div>
+    }
+
+    <!-- Error Message -->
+    @if (errorMessage()) {
+        <div class="alert alert-danger">{{ errorMessage() }}</div>
+    }
+
+    <!-- Table -->
+    <!-- Display the table if there are ANY games loaded -->
+    @if (gameData(); as data) {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Genre</th>
+                    <th>Year</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Rateing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Loop over the PAGINATED GAMES computed signal -->
+                @for (g of data.items; track g.id) {
+                    <tr>
+                        <td>{{ g.title }}</td>
+                        <td>{{ g.genre }}</td>
+                        <td>{{ g.releaseYear }}</td>
+                        <td>{{ g.description }}</td>
+                        <td>{{ g.price }}</td>
+                        <td>{{ g.rating }}</td>
+                        <td><button class="btn btn-sm btn-secondary" (click)="edit(g)">Edit</button></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <!-- PAGINATION CONTROLS -->
+        <div class="d-flex justify-content-between align-items-center mt-3">
+            <!-- Current Page / Total Pages Display -->
+            <span class="text-muted">
+                Showing {{ data.pageSize }} of {{ data.totalItemCount }} games. 
+                Page {{ currentPage() }} of {{ totalPages() }}.
+            </span>
+            
+            <div class="btn-group" role="group">
+                <!-- Previous Button: Calls prevPage() and disables when isFirstPage() is true -->
+                <button 
+                    class="btn btn-outline-secondary" 
+                    (click)="onPrevPage()" 
+                    [disabled]="isFirstDisabled()"
+                >
+                    Previous
+                </button>
+                
+                <!-- Next Button: Calls nextPage() and disables when isLastPage() is true -->
+                <button 
+                    class="btn btn-outline-secondary" 
+                    (click)="onNextPage()" 
+                    [disabled]="isNextDisabled()"
+                >
+                    Next
+                </button>
+            </div>
+        </div>
+        <!-- END PAGINATION CONTROLS -->
+    }
+
+    <!-- No data message -->
+    @if (!isLoading() && !gameData()) {
+        <div class="alert alert-secondary">
+            No games found. Click "Add New Game" to create one.
+        </div>
+    }
+</div>
