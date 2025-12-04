@@ -19,20 +19,17 @@ namespace DLCGGameCore.Service.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetPaged([FromQuery] int page = 1, [FromQuery] int pageSize = 5,
-                                              [FromQuery] string? search = null, [FromQuery] string? genre = null,
-                                              [FromQuery] string? sortBy = "title", [FromQuery] bool sortDesc = false,
-                                              CancellationToken ct = default)
+        public async Task<IActionResult> GetPaged([FromQuery] int currentPage = 1, [FromQuery] int pageSize = 5, CancellationToken ct = default)
         {
-            page = Math.Max(1, page);
+            currentPage = Math.Max(1, currentPage);
             pageSize = Math.Clamp(pageSize, 1, 200);
-            var result = await _service.GetPagedAsync(page, pageSize, search, genre, sortBy, sortDesc, ct);
+            var result = await _service.GetPagedAsync(currentPage, pageSize, ct);
                        
             var dtoResult = new PagedResult<VideoGameDto>
             {
                 Items = result.Items,
                 TotalItemCount = result.TotalItemCount,
-                CurretnPage = result.CurretnPage,
+                CurrentPage = result.CurrentPage,
                 PageSize = result.PageSize                
             };
 

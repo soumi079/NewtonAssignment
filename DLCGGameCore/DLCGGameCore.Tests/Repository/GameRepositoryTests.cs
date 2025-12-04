@@ -25,7 +25,7 @@ namespace DLCGGameCore.Tests.Repository
             await db.SaveChangesAsync();
 
             var repo = new VideoGameRepository(db);
-            var res = await repo.GetPagedAsync(1, 10, null, null, "title", false);
+            var res = await repo.GetPagedAsync(1, 10);
             Assert.Equal(2, res.TotalItemCount);
             Assert.Equal(2, res.Items.Count);
         }

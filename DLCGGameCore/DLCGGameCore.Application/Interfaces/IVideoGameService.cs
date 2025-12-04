@@ -10,7 +10,7 @@ namespace DLCGGameCore.Application.Interfaces
 {
     public interface IVideoGameService
     {
-        Task<PagedResult<VideoGameDto>> GetPagedAsync(int page, int pageSize, string? search, string? genre, string? sortBy, bool sortDesc, CancellationToken ct = default);
+        Task<PagedResult<VideoGameDto>> GetPagedAsync(int page, int pageSize, CancellationToken ct = default);
         Task<List<VideoGameDto>> GetAllAsync();
         Task<VideoGameDto?> GetByIdAsync(int id, CancellationToken ct = default);
         Task<VideoGameDto> AddAsync(VideoGameDto dto, CancellationToken ct = default);

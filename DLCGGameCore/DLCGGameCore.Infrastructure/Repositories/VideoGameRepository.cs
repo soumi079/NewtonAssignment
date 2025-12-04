@@ -40,33 +40,13 @@ namespace DLCGGameCore.Infrastructure.Repositories
             await _context.SaveChangesAsync(ct);
         }
 
-        public async Task<PagedResult<VideoGame>> GetPagedAsync(int page, int pageSize, string? search, string? genre, string? sortBy, bool sortDesc, CancellationToken ct = default)
+        public async Task<PagedResult<VideoGame>> GetPagedAsync(int page, int pageSize, CancellationToken ct = default)
         {
-            var query = _context.VideoGames.AsNoTracking();
-
-            if (!string.IsNullOrWhiteSpace(search))
-            {
-                var s = search.Trim();
-                query = query.Where(g => EF.Functions.Like(g.Title, $"%{s}%") || EF.Functions.Like(g.Genre, $"%{s}%"));
-            }
-
-            if (!string.IsNullOrWhiteSpace(genre))
-            {
-                var gfilter = genre.Trim();
-                query = query.Where(g => g.Genre == gfilter);
-            }
+            var query = _context.VideoGames.AsNoTracking();                       
 
             // total count before paging
             var total = await query.CountAsync(ct);
-
-            // sort
-            query = (sortBy?.ToLower()) switch
-            {
-                "title" => sortDesc ? query.OrderByDescending(g => g.Title) : query.OrderBy(g => g.Title),
-                "releaseyear" => sortDesc ? query.OrderByDescending(g => g.ReleaseYear) : query.OrderBy(g => g.ReleaseYear),
-                "genre" => sortDesc ? query.OrderByDescending(g => g.Genre) : query.OrderBy(g => g.Genre),
-                _ => query.OrderBy(g => g.Id)
-            };
+       
 
             var skip = (page - 1) * pageSize;
             var items = await query.Skip(skip).Take(pageSize).ToListAsync(ct);
@@ -75,7 +55,7 @@ namespace DLCGGameCore.Infrastructure.Repositories
             {
                 Items = items,
                 TotalItemCount = total,
-                CurretnPage = page,
+                CurrentPage = page,
                 PageSize = pageSize
             };
         }

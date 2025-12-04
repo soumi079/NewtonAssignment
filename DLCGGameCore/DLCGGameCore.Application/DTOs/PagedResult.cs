@@ -10,7 +10,7 @@ namespace DLCGGameCore.Application.DTOs
     {       
         public IList<T> Items { get; set; } = new List<T>();
         public int TotalItemCount { get; set; }
-        public int CurretnPage { get; set; }        
+        public int CurrentPage { get; set; }        
         public int PageSize { get; set; }
 
         public int TotalPages => (int)Math.Ceiling((double)TotalItemCount / PageSize);

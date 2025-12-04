@@ -36,7 +36,7 @@ export class VideogameList implements OnInit {
     this.isLoading.set(true);
     this.errorMessage.set(null);
 
-    this.svc.getPaged(this.currentPage(), this.pageSize(), "", "", false).pipe(
+    this.svc.getPaged(this.currentPage(), this.pageSize()).pipe(
       catchError(error => {
         console.error('API Error:', error);
         this.errorMessage.set('Failed to fetch data. Please try again.');

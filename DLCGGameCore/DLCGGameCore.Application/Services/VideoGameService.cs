@@ -15,7 +15,8 @@ namespace DLCGGameCore.Application.Services
     {
         private readonly IVideoGameRepository _repository;
         private readonly IMemoryCache _cache;
-        private readonly IMapper _mapper;        
+        private readonly IMapper _mapper;
+        private const string GamesCacheKey = "games_list";
 
         public VideoGameService(IVideoGameRepository repository, IMemoryCache cache, IMapper mapper)
         {
@@ -24,31 +25,31 @@ namespace DLCGGameCore.Application.Services
             _mapper = mapper;
         }
 
-        public async Task<PagedResult<VideoGameDto>> GetPagedAsync(int page, int pageSize, string? search, string? genre, string? sortBy, bool sortDesc, CancellationToken ct = default)
+        public async Task<PagedResult<VideoGameDto>> GetPagedAsync(int page, int pageSize, CancellationToken ct = default)
         {
-            if (page == 1 && pageSize <= 50 && string.IsNullOrWhiteSpace(search))
+            if (page == 1 && pageSize <= 50)
             {
-                var key = $"games:p1:ps{pageSize}:genre:{genre}:sort:{sortBy}:{sortDesc}";
-                if (_cache.TryGetValue<PagedResult<VideoGameDto>>(key, out var cached))
+                
+                if (_cache.TryGetValue<PagedResult<VideoGameDto>>(GamesCacheKey, out var cached))
                     return cached;
 
-                var domainPaged = await _repository.GetPagedAsync(page, pageSize, search, genre, sortBy, sortDesc, ct);
+                var domainPaged = await _repository.GetPagedAsync(page, pageSize, ct);
                 var dtoPaged = new PagedResult<VideoGameDto>
                 {
-                    CurretnPage = domainPaged.CurretnPage,
+                    CurrentPage = domainPaged.CurrentPage,
                     PageSize = domainPaged.PageSize,
                     TotalItemCount = domainPaged.TotalItemCount,
                     Items = domainPaged.Items.Select(g => _mapper.Map<VideoGameDto>(g)).ToList()
                 };
 
-                _cache.Set(key, dtoPaged, TimeSpan.FromMinutes(2));
+                _cache.Set(GamesCacheKey, dtoPaged, TimeSpan.FromMinutes(2));
                 return dtoPaged;
             }
 
-            var pageResult = await _repository.GetPagedAsync(page, pageSize, search, genre, sortBy, sortDesc, ct);
+            var pageResult = await _repository.GetPagedAsync(page, pageSize, ct);
             return new PagedResult<VideoGameDto>
             {
-                CurretnPage = pageResult.CurretnPage,
+                CurrentPage = pageResult.CurrentPage,
                 PageSize = pageResult.PageSize,
                 TotalItemCount = pageResult.TotalItemCount,
                 Items = pageResult.Items.Select(g => _mapper.Map<VideoGameDto>(g)).ToList()
@@ -80,6 +81,7 @@ namespace DLCGGameCore.Application.Services
         {
             var entity = _mapper.Map<VideoGame>(dto);
             var created = await _repository.AddAsync(entity, ct);
+            _cache.Remove(GamesCacheKey);
             return _mapper.Map<VideoGameDto>(created);
         }
 
@@ -87,6 +89,7 @@ namespace DLCGGameCore.Application.Services
         public async Task UpdateAsync(VideoGameDto dto, CancellationToken ct = default)
         {
             var entity = _mapper.Map<VideoGame>(dto);
+            _cache.Remove(GamesCacheKey);
             await _repository.UpdateAsync(entity, ct);
         }        
     }

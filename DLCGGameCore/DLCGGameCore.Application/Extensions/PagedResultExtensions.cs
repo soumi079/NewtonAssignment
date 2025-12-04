@@ -15,7 +15,7 @@ namespace DLCGGameCore.Application.Extensions
         {
             return new PagedResult<TDestination>
             {
-                CurretnPage = source.CurretnPage,
+                CurrentPage = source.CurrentPage,
                 PageSize = source.PageSize,
                 TotalItemCount = source.TotalItemCount,
                 Items = source.Items.Select(selector).ToList()
